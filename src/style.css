@@ -1,0 +1,243 @@
+body  {
+    position: sticky;
+    width: 3px;
+    height: 43px;
+    left: 306px;
+    top: 640px;
+    background: #E5E5E5;
+}
+h1 {
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    left: calc(50% - 179px/2 + 4.5px);
+    top: -30px;
+    
+    font-family: Sue Ellen Francisco;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 47px;
+    text-align: center;
+    
+    color: #807B87;
+    
+    mix-blend-mode: normal;
+    
+}
+
+.Intro {
+    position: absolute;    
+    font-family: Sue Ellen Francisco;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 41px;
+    text-align: center;
+    
+    color: #000000;
+    
+    mix-blend-mode: normal;
+    
+    width: 532px;
+    height: 255px;
+    left: -210px;
+    top: 70px;
+    
+    background: #D7CCE7;
+    
+}
+
+h2 {
+    position: absolute;
+    width: 183px;
+    height: 66px;
+    left: calc(50% - 183px/2 + 6px);
+    font-family: Sue Ellen Francisco;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 94px;
+    text-align: center;
+    top: 270px;
+    
+    color: #807B87;
+    
+    mix-blend-mode: normal;
+    
+    
+    
+}
+.primerpaso {
+    position: relative;
+    font-family: Sue Ellen Francisco;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #000000;
+    
+    width: 310px;
+    height: 48px;
+    left: 110px;
+    top: 140px;
+    
+    background: #D7CCE7;
+    
+}
+
+.number {
+    position: absolute;
+    width: 32px;
+    height: 21px;
+    left: 260px;
+    top: 470px;
+    
+    background: #FEFAFA;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    
+}
+
+.segundopaso {
+    position: relative;
+    font-family: Sue Ellen Francisco;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    width: 310px;
+    height: 48px;
+    left: 110px;
+    top: 175px;
+    
+    background: #D7CCE7;
+}
+
+.text1 {
+    position: absolute;
+    width: 222px;
+    height: 67px;
+    left: 160px;
+    top: 570px;
+    
+    background: #FEFAFA;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.tercerpaso {
+    
+    font-family: Sue Ellen Francisco;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    position: relative;
+    width: 310px;
+    height: 48px;
+    left: 110px;
+    top: 250px;
+    
+    background: #D7CCE7;
+}
+
+.cifrar1 {
+    position: absolute;
+    width: 74px;
+    height: 39px;
+    left: 170px;
+    top: 710px;
+    
+    font-family: Sue Ellen Francisco;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #000000;
+    
+    background: #D7CCE7;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    
+}
+
+.descifrar1 {
+    position: absolute;
+    width: 74px;
+    height: 39px;
+    left: 280px;
+    top: 710px;
+    
+    font-family: Sue Ellen Francisco;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #000000;
+    
+    background: #D7CCE7;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    
+}
+
+.cuartopaso {
+    
+    font-family: Sue Ellen Francisco;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    position: relative;
+    width: 310px;
+    height: 48px;
+    left: 38px;
+    top: -10px;
+    
+    background: #D7CCE7;
+}
+
+.text2 {
+    position: absolute;
+    width: 222px;
+    height: 67px;
+    left: 150px;
+    top: 780px;
+    
+    background: #FEFAFA;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.imagen {
+    position: absolute;
+    width: 400px;
+    height: 170px;
+    left: -140px;
+    top: 940px;
+    background: url(ZEACKB7LD.png);
+}
