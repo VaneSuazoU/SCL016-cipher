@@ -21,5 +21,15 @@ ejecDescifrar.onclick = function(){
     console.log(teXt1);    
 }
 
+// Pasando letras a mayuscula
+
+document.getElementById("original").addEventListener("keyup", myFunction);
+
+function myFunction() {
+  const x = document.getElementById("original");
+  x.value = x.value.toUpperCase();
+}
+
+
 
 console.log(cipher);
