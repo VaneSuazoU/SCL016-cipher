@@ -1,25 +1,35 @@
 import cipher from './cipher.js';
 
-//Guardando datos ingresados
+//declarando variables
 
 const ejecCIfrar = document.getElementById("cifrar");
 const ejecDescifrar = document.getElementById("descifrar");
 
-ejecCIfrar.onclick = function(){
-    const disPlace = document.getElementById("desplazamiento").value;
-    const teXt1 = document.getElementById("original").value;
-    
+
+ejecCIfrar.onclick = () => {
+   const disPlace = document.getElementById("desplazamiento").value;
+   const teXt1 = document.getElementById("original") .value;
+   document.getElementById("resultado").value = teXt1;
+   
+    console.log(document.getElementById("resultado"));
     console.log(disPlace);
     console.log(teXt1);
+
+
 }
 
-ejecDescifrar.onclick = function(){
+ejecDescifrar.onclick = () => {
     const disPlace = document.getElementById("desplazamiento").value;
     const teXt1 = document.getElementById("original").value;
-    
+    document.getElementById("resultado").value = teXt1;
+
+    console.log(document.getElementById("resultado"));
     console.log(disPlace);
     console.log(teXt1);    
 }
+
+
+console.log(cipher);
 
 // Pasando letras a mayuscula
 
@@ -29,5 +39,3 @@ function mayuscula() {
   const teXt1 = document.getElementById("original");
   teXt1.value = teXt1.value.toUpperCase();
 }
-
-console.log(cipher);
