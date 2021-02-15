@@ -5,13 +5,13 @@ import cipher from './cipher.js';
 const ejecCIfrar = document.getElementById("cifrar");
 const ejecDescifrar = document.getElementById("descifrar");
 
-
 ejecCIfrar.onclick = () => {
    const disPlace = document.getElementById("desplazamiento").value;
    const teXt1 = document.getElementById("original") .value;
-   document.getElementById("resultado").value = teXt1;
+   const msjeOk = cipher.encode(teXt1, disPlace);
+   document.getElementById ("resultado").value = msjeOk;
    
-    console.log(document.getElementById("resultado"));
+    
     console.log(disPlace);
     console.log(teXt1);
 
@@ -29,13 +29,5 @@ ejecDescifrar.onclick = () => {
 }
 
 
+
 console.log(cipher);
-
-// Pasando letras a mayuscula
-
-document.getElementById("original").addEventListener("keyup", mayuscula);
-
-function mayuscula() {
-  const teXt1 = document.getElementById("original");
-  teXt1.value = teXt1.value.toUpperCase();
-}
