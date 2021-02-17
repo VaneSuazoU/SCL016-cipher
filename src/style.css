@@ -4,7 +4,8 @@ body  {
     height: 43px;
     left: 306px;
     top: 640px;
-    background: #E5E5E5;
+    background-image: linear-gradient(to right, #E5E5E5 , #FFD8E8);
+    
 }
 h1 {
     position: absolute;
@@ -20,7 +21,7 @@ h1 {
     line-height: 47px;
     text-align: center;
     
-    color: #807B87;
+    color: #392D50;
     
     mix-blend-mode: normal;
     
@@ -61,7 +62,7 @@ h2 {
     text-align: center;
     top: 270px;
     
-    color: #807B87;
+    color: #392D50;
     
     mix-blend-mode: normal;
     
