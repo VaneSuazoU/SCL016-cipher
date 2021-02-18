@@ -60,7 +60,7 @@ h2 {
     font-size: 48px;
     line-height: 94px;
     text-align: center;
-    top: 270px;
+    top: 235px;
     
     color: #392D50;
     
@@ -162,7 +162,7 @@ h2 {
     width: 74px;
     height: 39px;
     left: 170px;
-    top: 710px;
+    top: 720px;
     
     font-family: Sue Ellen Francisco;
     font-style: normal;
@@ -184,7 +184,7 @@ h2 {
     width: 74px;
     height: 39px;
     left: 280px;
-    top: 710px;
+    top: 720px;
     
     font-family: Sue Ellen Francisco;
     font-style: normal;
@@ -241,4 +241,9 @@ h2 {
     left: -140px;
     top: 940px;
     background: url(ZEACKB7LD.png);
+}
+
+.links {
+    position: absolute;
+    left: 150px;
 }
