@@ -30,7 +30,6 @@ ejecCIfrar.onclick = () => {
 ejecDescifrar.onclick = () => {
   let disPlace = document.getElementById("desplazamiento").value;
   let teXt1 = document.getElementById("original").value;
-  document.getElementById("resultado").value = teXt1;
   let msjeOk = cipher.decode (teXt1, disPlace);
   document.getElementById ("resultado").value = msjeOk;
   
